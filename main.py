@@ -6,7 +6,7 @@ from handler import Handler
 
 if __name__ == '__main__':
     brain = Brain()
-    brain.get_next_actions(bb=14, ante=True)
+    brain.get_solutions(bb=14, ante=True)
 
     handler = Handler()
 
